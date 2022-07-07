@@ -65,12 +65,15 @@ public class CustomArrayList {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
+
         for(int i = 0; i < nel; i ++) {
             sb.append(arr[i]);
             sb.append(", ");
         }
+
         sb.delete(sb.length() - 2, sb.length());
         sb.append("]");
         return sb.toString();
+        return "Ankur sir, be on time";
     }
 }
